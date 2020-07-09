@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask html</title>
+  <link href="{{ url_for('static', filename='css/reset.css') }}"/>
+</head>
+<body>
+    Flask html
+    <p>{{ username }}</p>
+    <h3>图片</h3>
+    <img src="{{ url_for('static', filename='images/background.png') }}"/>
+</body>
+</html>
